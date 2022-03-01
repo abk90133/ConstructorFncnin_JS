@@ -1,0 +1,14 @@
+function housekeeper(name, age, experience, expertise){
+ this.name = name;
+ this.age = age;
+ this.experience = experience;
+ this.expertise = expertise;
+}
+
+
+**In Console**
+var housekeeper1 = new housekeeper("Sam", 19, 1, ["lobby", "washroom"]);
+//Here the "new" keyword is very important to store the values inside the functon.
+
+
+console.log(housekeeper1.name);
